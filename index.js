@@ -1,7 +1,11 @@
 
 const TelegramBotApi = require('node-telegram-bot-api');
 
-const fs = require('fs')
+const fs = require('fs');
+
+const host = `0.0.0.0`
+
+const port = process.env.PORT || 8080;
 
 const token = '5721139822:AAE7cvsWVdw4lhSr_oxXtabrZczZ5UMusP8';
 
